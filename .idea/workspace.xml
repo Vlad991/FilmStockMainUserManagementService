@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="" />
+    <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/BlockedUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/BlockingReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/CommentedMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/DislikedMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/FutureMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/LikedMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/RecommendedMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/UtilEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/UtilMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/WatchedMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/date/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/date/DateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/date/DateTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/time/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/time/TimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/time/TimeTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,18 +52,59 @@
       <executable />
     </execution>
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="filmstockdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="filmstockdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="filmstockdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="filmstockdb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VpO2ia72t9CxWXMlywCZKKvfgL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -35,12 +113,54 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="aws" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.filmstock.entity" />
+      <recent name="com.filmstock.entity.Time" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="FilmStockMainUserManagementService.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.filmstock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.filmstock.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,7 +184,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577946365612</updated>
-      <workItem from="1577946372695" duration="458000" />
+      <workItem from="1577946372695" duration="2145000" />
+      <workItem from="1577955936706" duration="7818000" />
+      <workItem from="1577986090642" duration="600000" />
+      <workItem from="1578047355768" duration="9161000" />
     </task>
     <servers />
   </component>
@@ -72,9 +195,83 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1577946373043">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state x="320" y="115" key="#Assign_Data_Sources" timestamp="1577960482387">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="115" key="#Assign_Data_Sources/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1577960482387" />
+    <state x="320" y="115" key="#Notifications" timestamp="1578047379806">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1578047379806" />
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577959243665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1577959243665" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1578049431337">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1578049431337" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578054769152">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578054769152" />
+    <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578060642979">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1578060642979" />
+    <state x="492" y="330" width="456" height="238" key="Github.ShareDialog" timestamp="1577947105557">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="492" y="330" width="456" height="238" key="Github.ShareDialog/0.23.1440.813@0.23.1440.813" timestamp="1577946976868" />
+    <state x="492" y="330" key="Github.ShareDialog/0.23.1440.815@0.23.1440.815" timestamp="1577947105557" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1578061002775">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578061002775" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1578061002773">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578061002773" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1578061002772">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578061002772" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1578061002774">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578061002774" />
+    <state width="1398" height="238" key="GridCell.Tab.1.bottom" timestamp="1578061002782">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578061002782" />
+    <state width="1398" height="238" key="GridCell.Tab.1.center" timestamp="1578061002779">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1578061002779" />
+    <state width="1398" height="238" key="GridCell.Tab.1.left" timestamp="1578061002777">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1578061002777" />
+    <state width="1398" height="238" key="GridCell.Tab.1.right" timestamp="1578061002781">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578061002781" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1578060459019">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060459019" />
+    <state x="498" y="40" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578050738668">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="498" y="40" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1578050738668" />
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1578047355408">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578047355408" />
     <state x="397" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1577946373043" />
+    <state x="492" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578055505510">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="492" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1578055505510" />
   </component>
 </project>
