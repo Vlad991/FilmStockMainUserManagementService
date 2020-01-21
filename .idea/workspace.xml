@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/CommentedMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/DislikedMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/ErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/FutureMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/LikedMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/Payload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/RecommendedMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/UtilMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/WatchedMovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/FriendRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/FriendsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/MarkDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/FriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/Friends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/Mark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/MarkValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/FutureMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/FutureMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/MessageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/BlockedUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/BlockedUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,8 +113,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.filmstock.dto" />
       <recent name="com.filmstock.entity" />
+      <recent name="com.filmstock.dto" />
       <recent name="com.filmstock.entity.Time" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -174,7 +170,7 @@
       <workItem from="1578077212435" duration="142000" />
       <workItem from="1578081121594" duration="1122000" />
       <workItem from="1578147762842" duration="70000" />
-      <workItem from="1579619538905" duration="2483000" />
+      <workItem from="1579619538905" duration="7494000" />
     </task>
     <task id="LOCAL-00001" summary="Add user movie management entity with managed movies entities">
       <created>1578061087109</created>
@@ -183,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578061087109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add user movie management dto with managed movies dto">
+      <created>1579622077321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579622077321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +194,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add user movie management entity with managed movies entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user movie management entity with managed movies entities" />
+    <MESSAGE value="Add user movie management dto" />
+    <MESSAGE value="Add user movie management dto with managed movies dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user movie management dto with managed movies dto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Assign_Data_Sources" timestamp="1577960482387">
@@ -218,10 +223,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1578060642979" />
-    <state x="-7" y="14" key="CommitChangelistDialog2" timestamp="1578061086588">
+    <state x="112" y="43" key="CommitChangelistDialog2" timestamp="1579632869722">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="-7" y="14" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578061086588" />
+    <state x="112" y="40" key="CommitChangelistDialog2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622076857" />
+    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579632869722" />
     <state x="492" y="330" width="456" height="238" key="Github.ShareDialog" timestamp="1577947105557">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
@@ -263,9 +269,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060459019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578061089282">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1579622079717">
+      <screen x="0" y="0" width="1440" height="840" />
     </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622079717" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578061089282" />
     <state x="498" y="40" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578050738668">
       <screen x="0" y="0" width="1440" height="900" />
@@ -281,9 +288,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="492" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1578055505510" />
-    <state x="127" y="-909" width="1152" height="840" maximized="true" key="dock-window-1" timestamp="1579620489991">
-      <screen x="72" y="-1001" width="1280" height="1001" />
+    <state x="0" y="23" width="1280" height="815" key="dock-window-1" timestamp="1579629997783">
+      <screen x="0" y="23" width="1440" height="815" />
     </state>
     <state x="127" y="-909" width="1152" height="840" maximized="true" key="dock-window-1/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579620489991" />
+    <state x="0" y="23" width="1280" height="815" key="dock-window-1/0.23.1440.815@0.23.1440.815" timestamp="1579629997783" />
   </component>
 </project>

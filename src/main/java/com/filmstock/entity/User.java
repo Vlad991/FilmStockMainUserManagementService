@@ -61,4 +61,13 @@ public class User extends UtilEntity {
 
     @OneToMany(mappedBy = "sender", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<RecommendedMovie> sentMovies;         // recommended from me (sent)
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Friends> friendsList;
+
+    @OneToMany(mappedBy = "receiver", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<FriendRequest> friendRequests;
+
+    @OneToMany(mappedBy = "sender", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<FriendRequest> sentFriendRequests;
 }
