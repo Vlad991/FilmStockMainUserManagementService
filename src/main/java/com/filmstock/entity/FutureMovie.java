@@ -1,7 +1,6 @@
 package com.filmstock.entity;
 
 import com.filmstock.entity.date.Date;
-import com.filmstock.entity.time.Time;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
