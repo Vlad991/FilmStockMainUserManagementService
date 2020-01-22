@@ -16,7 +16,7 @@ public class MarkDTO {
     private UserDTO user;
 
     @NotNull(message = "Movie is required")
-    private String movieId;
+    private int movieId;
 
     @NotNull(message = "Mark is required")
     private int mark;

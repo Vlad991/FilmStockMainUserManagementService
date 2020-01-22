@@ -17,7 +17,7 @@ public class Mark extends UtilEntity {
     private User user;
 
     @Column(name = "movie_id", nullable = false)
-    private String movieId;
+    private int movieId;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "mark", nullable = false)

@@ -1,6 +1,8 @@
 package com.filmstock.service.data;
 
 import com.filmstock.entity.FriendRequest;
+import com.filmstock.exception.FriendRequestAlreadyExistsException;
+import com.filmstock.exception.FriendRequestNotFoundException;
 import com.filmstock.repository.FriendRequestRepository;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,8 @@
 package com.filmstock.service.data;
 
 import com.filmstock.entity.Friends;
+import com.filmstock.exception.FriendsAlreadyExistException;
+import com.filmstock.exception.FriendsNotFoundException;
 import com.filmstock.repository.FriendsRepository;
 import org.springframework.stereotype.Service;
 
