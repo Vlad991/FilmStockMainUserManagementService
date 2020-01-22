@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/converter/FriendRequestConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/converter/FriendsConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/CommentedMovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/DislikedMovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/FriendRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/FriendsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/FutureMovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/LikedRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +68,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -105,6 +112,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.filmstock.repository" />
       <recent name="com.filmstock.converter" />
       <recent name="com.filmstock.entity" />
       <recent name="com.filmstock.dto" />
@@ -119,7 +127,7 @@
       <module name="FilmStockMainUserManagementService.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.filmstock.*" />
+          <option name="PATTERN" value="com.filmstock.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,7 +172,7 @@
       <workItem from="1578081121594" duration="1122000" />
       <workItem from="1578147762842" duration="70000" />
       <workItem from="1579619538905" duration="8323000" />
-      <workItem from="1579674278883" duration="6726000" />
+      <workItem from="1579674278883" duration="8341000" />
     </task>
     <task id="LOCAL-00001" summary="Add user movie management entity with managed movies entities">
       <created>1578061087109</created>
@@ -194,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579683110052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add friends logic converters">
+      <created>1579685822815</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579685822815</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +221,8 @@
     <MESSAGE value="Add user movie management dto with managed movies dto" />
     <MESSAGE value="Add friends and mark entity and dto" />
     <MESSAGE value="Add movie, user and mark converters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add movie, user and mark converters" />
+    <MESSAGE value="Add friends logic converters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add friends logic converters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Assign_Data_Sources" timestamp="1577960482387">
@@ -233,11 +249,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1578060642979" />
-    <state x="112" y="43" key="CommitChangelistDialog2" timestamp="1579683109686">
+    <state x="112" y="43" key="CommitChangelistDialog2" timestamp="1579685822658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="112" y="40" key="CommitChangelistDialog2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622076857" />
-    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579683109686" />
+    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579685822658" />
     <state x="492" y="330" width="456" height="238" key="Github.ShareDialog" timestamp="1577947105557">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
@@ -295,11 +311,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060459019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579683112741">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579685824256">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622079717" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579683112741" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579685824256" />
     <state x="498" y="37" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579633192260">
       <screen x="0" y="0" width="1440" height="838" />
     </state>
