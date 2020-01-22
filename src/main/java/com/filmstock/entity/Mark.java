@@ -10,14 +10,14 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table(name = "users")
+@Table(name = "marks")
 public class Mark extends UtilEntity {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
 
     @Column(name = "movie_id", nullable = false)
-    private String movie_id;
+    private String movieId;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "mark", nullable = false)

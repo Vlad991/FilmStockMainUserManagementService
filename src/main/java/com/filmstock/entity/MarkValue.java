@@ -14,11 +14,20 @@ public enum MarkValue {
 
     private int value;
 
-    private MarkValue(int value) {
+    MarkValue(int value) {
         this.value = value;
     }
 
     public int getValue() {
         return value;
+    }
+
+    public static MarkValue getMarkValue(int value) {
+        for (MarkValue markValue : MarkValue.values()) {
+            if (value == markValue.getValue()) {
+                return markValue;
+            }
+        }
+        return null;
     }
 }
