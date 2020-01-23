@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/DislikedMovieAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/LikedMovieAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/WatchedMovieAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/NullUserLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/FriendsControllerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/MarkControllerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/MovieManagementControllerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/UserControllerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/FutureMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/entity/FutureMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/CommentedMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/CommentedMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/DislikedMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/DislikedMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/FutureMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/FutureMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/LikedMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/LikedMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/RecommendedMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/RecommendedMovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/WatchedMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/repository/WatchedMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/handler/ExceptionHandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/handler/ExceptionHandlerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +186,7 @@
       <workItem from="1578147762842" duration="70000" />
       <workItem from="1579619538905" duration="8323000" />
       <workItem from="1579674278883" duration="15844000" />
-      <workItem from="1579775255196" duration="3185000" />
+      <workItem from="1579775255196" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="Add user movie management entity with managed movies entities">
       <created>1578061087109</created>
@@ -248,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579709045441</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add movie service and exceptions">
+      <created>1579783072576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579783072576</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +278,8 @@
     <MESSAGE value="Add repository" />
     <MESSAGE value="Add user and friend service" />
     <MESSAGE value="Add mark service and exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mark service and exceptions" />
+    <MESSAGE value="Add movie service and exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add movie service and exceptions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Assign_Data_Sources" timestamp="1577960482387">
@@ -290,11 +294,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1577959243665" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1579782952525">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1579783864591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579706723701" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579775594590" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579783864591" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579782952525" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578054769152">
       <screen x="0" y="0" width="1440" height="900" />
@@ -304,12 +308,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1578060642979" />
-    <state x="112" y="43" key="CommitChangelistDialog2" timestamp="1579709045029">
+    <state x="112" y="43" key="CommitChangelistDialog2" timestamp="1579786643966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="112" y="40" key="CommitChangelistDialog2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622076857" />
-    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579709045029" />
-    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579705960048" />
+    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579786643966" />
+    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579783072148" />
     <state x="492" y="330" width="456" height="238" key="Github.ShareDialog" timestamp="1577947105557">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
@@ -367,12 +371,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060459019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579709047539">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579783074433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622079717" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579709047539" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579705962258" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579783074433" />
     <state x="498" y="37" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579633192260">
       <screen x="0" y="0" width="1440" height="838" />
     </state>

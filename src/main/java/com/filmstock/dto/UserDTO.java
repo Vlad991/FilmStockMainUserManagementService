@@ -37,4 +37,7 @@ public class UserDTO {
     private boolean blocked;
 
     private BlockingReason blockingReason;
+
+    @NotNull(message = "Password is required")
+    private String password;
 }
