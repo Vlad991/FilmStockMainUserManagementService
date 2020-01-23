@@ -14,15 +14,17 @@ public class FriendRequestService {
         this.friendRequestRepository = friendRequestRepository;
     }
 
-    public void saveFriendRequest(FriendRequest friendRequest) {
+    public FriendRequest saveFriendRequest(FriendRequest friendRequest) {
         FriendRequest existingRequest = friendRequestRepository
                 .findBySender_LoginAndReceiver_Login(
                         friendRequest.getSender().getLogin(),
                         friendRequest.getReceiver().getLogin());
         if (existingRequest != null) {
-            throw new FriendRequestAlreadyExistsException("Friend request already exists");
+            existingRequest.setMessage(friendRequest.getMessage());
+            return friendRequestRepository.save(existingRequest);
+        } else {
+            return friendRequestRepository.save(friendRequest);
         }
-        friendRequestRepository.save(friendRequest);
     }
 
     public void deleteFriendRequest(FriendRequest friendRequest) {

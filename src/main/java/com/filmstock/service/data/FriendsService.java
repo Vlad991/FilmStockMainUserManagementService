@@ -16,8 +16,12 @@ public class FriendsService {
         this.friendsRepository = friendsRepository;
     }
 
+    public Friends getFriendsByLogins(String firstFriend, String secondFriend) {
+        return friendsRepository.findByUserFirst_LoginAndUserSecond_Login(firstFriend, secondFriend);
+    }
+
     @Transactional
-    public void saveFriends(Friends newFriends) {
+    public Friends saveFriends(Friends newFriends) {
         Friends existingFriends = friendsRepository
                 .findByUserFirst_LoginAndUserSecond_Login(
                         newFriends.getUserFirst().getLogin(),
@@ -25,7 +29,7 @@ public class FriendsService {
         if (existingFriends != null) {
             throw new FriendsAlreadyExistException("Friends already exist");
         }
-        friendsRepository.save(newFriends);
+        return friendsRepository.save(newFriends);
     }
 
     @Transactional
