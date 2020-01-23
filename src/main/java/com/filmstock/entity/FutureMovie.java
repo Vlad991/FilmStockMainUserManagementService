@@ -20,6 +20,6 @@ public class FutureMovie extends UtilMovie {
     @Column(name = "date", nullable = false)
     private Date date;
 
-    @Column(name = "priority", nullable = false, unique = true)
+    @Column(name = "priority", nullable = false)
     private int priority;
 }
