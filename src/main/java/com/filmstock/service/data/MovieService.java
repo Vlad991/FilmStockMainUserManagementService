@@ -1,10 +1,7 @@
 package com.filmstock.service.data;
 
 import com.filmstock.entity.*;
-import com.filmstock.exception.DislikedMovieAlreadyExistsException;
-import com.filmstock.exception.LikedMovieAlreadyExistsException;
 import com.filmstock.exception.UserNotFoundException;
-import com.filmstock.exception.WatchedMovieAlreadyExistsException;
 import com.filmstock.repository.*;
 import org.springframework.stereotype.Service;
 
@@ -42,12 +39,16 @@ public class MovieService {
             throw new UserNotFoundException();
         }
         if (existingWatchedMovie != null) {
-            throw new WatchedMovieAlreadyExistsException("Movie already added to watched");
+            return existingWatchedMovie;
+        } else {
+            return watchedMovieRepository.save(watchedMovie);
         }
-        return watchedMovieRepository.save(watchedMovie);
     }
 
-    @Transactional
+    public WatchedMovie getWatchedMovieByUserAndMovieId(String login, int movieId) {
+        return watchedMovieRepository.findByUser_LoginAndMovieId(login, movieId);
+    }
+
     public List<WatchedMovie> getAllWatchedMoviesByUser(String login) {
         User user = userRepository.findByLogin(login);
         if (user == null) {
@@ -67,12 +68,24 @@ public class MovieService {
             throw new UserNotFoundException();
         }
         if (existingLikedMovie != null) {
-            throw new LikedMovieAlreadyExistsException("Movie already liked");
+            return existingLikedMovie;
+        } else {
+            return likedMovieRepository.save(likedMovie);
         }
-        return likedMovieRepository.save(likedMovie);
     }
 
     @Transactional
+    public void removeLikedMovie(String login, int movieId) {
+        LikedMovie likedMovie = likedMovieRepository.findByUser_LoginAndMovieId(login, movieId);
+        if (likedMovie != null) {
+            likedMovieRepository.delete(likedMovie);
+        }
+    }
+
+    public LikedMovie getLikedMovieByUserAndMovieId(String login, int movieId) {
+        return likedMovieRepository.findByUser_LoginAndMovieId(login, movieId);
+    }
+
     public List<LikedMovie> getAllLikedMoviesByUser(String login) {
         User user = userRepository.findByLogin(login);
         if (user == null) {
@@ -92,12 +105,24 @@ public class MovieService {
             throw new UserNotFoundException();
         }
         if (existingDislikedMovie != null) {
-            throw new DislikedMovieAlreadyExistsException("Movie already disliked");
+            return existingDislikedMovie;
+        } else {
+            return dislikedMovieRepository.save(dislikedMovie);
         }
-        return dislikedMovieRepository.save(dislikedMovie);
     }
 
     @Transactional
+    public void removeDislikedMovie(String login, int movieId) {
+        DislikedMovie dislikedMovie = dislikedMovieRepository.findByUser_LoginAndMovieId(login, movieId);
+        if (dislikedMovie != null) {
+            dislikedMovieRepository.delete(dislikedMovie);
+        }
+    }
+
+    public DislikedMovie getDislikedMovieByUserAndMovieId(String login, int movieId) {
+        return dislikedMovieRepository.findByUser_LoginAndMovieId(login, movieId);
+    }
+
     public List<DislikedMovie> getAllDislikedMoviesByUser(String login) {
         User user = userRepository.findByLogin(login);
         if (user == null) {
@@ -115,7 +140,6 @@ public class MovieService {
         return commentedMovieRepository.save(commentedMovie);
     }
 
-    @Transactional
     public List<CommentedMovie> getAllCommentedMoviesByUser(String login) {
         User user = userRepository.findByLogin(login);
         if (user == null) {
@@ -143,7 +167,10 @@ public class MovieService {
         }
     }
 
-    @Transactional
+    public FutureMovie getFutureMovieByUserAndMovieId(String login, int movieId) {
+        return futureMovieRepository.findByUser_LoginAndMovieId(login, movieId);
+    }
+
     public List<FutureMovie> getAllFutureMoviesByUser(String login) {
         User user = userRepository.findByLogin(login);
         if (user == null) {
@@ -171,7 +198,6 @@ public class MovieService {
         }
     }
 
-    @Transactional
     public List<RecommendedMovie> getAllRecommendedMoviesByUser(String login) {
         User user = userRepository.findByLogin(login);
         if (user == null) {

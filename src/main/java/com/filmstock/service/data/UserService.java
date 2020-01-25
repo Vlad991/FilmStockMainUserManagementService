@@ -29,7 +29,11 @@ public class UserService {
     }
 
     public User findUserByLogin(String login) {
-        return userRepository.findByLogin(login);
+        User user = userRepository.findByLogin(login);
+        if (user == null) {
+            throw new UserNotFoundException();
+        }
+        return user;
     }
 
     @Transactional

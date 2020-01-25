@@ -12,10 +12,15 @@ import javax.validation.constraints.NotNull;
 @Getter
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class FutureMovieDTO extends UtilMovieDTO {
+public class FutureMovieDTO extends UtilMovieDTO implements Comparable<FutureMovieDTO> {
     @NotNull(message = "Date is required")
     private Date date;
 
     @NotNull(message = "Priority is required")
     private int priority;
+
+    @Override
+    public int compareTo(FutureMovieDTO o) {
+        return (this.getPriority() - o.getPriority());
+    }
 }

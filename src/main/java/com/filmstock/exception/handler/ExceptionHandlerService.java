@@ -22,9 +22,6 @@ public class ExceptionHandlerService {
             FriendRequestNotFoundException.class,
             MarkAlreadyExistsException.class,
             MarkNotFoundException.class,
-            WatchedMovieAlreadyExistsException.class,
-            LikedMovieAlreadyExistsException.class,
-            DislikedMovieAlreadyExistsException.class,
             NullUserLoginException.class
     })
     @ResponseBody
