@@ -4,18 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="">
+    <list default="true" id="83371024-adb9-4a3c-b12a-67ece9793f64" name="Default Changelist" comment="Add UMM and mark controller services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/FutureMovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/dto/FutureMovieDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/DislikedMovieAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/LikedMovieAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/WatchedMovieAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/handler/ExceptionHandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/exception/handler/ExceptionHandlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/service/MarkControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/MarkControllerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/service/MovieManagementControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/MovieManagementControllerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/MarkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/MarkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filmstock/service/data/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +182,13 @@
       <workItem from="1579674278883" duration="15844000" />
       <workItem from="1579775255196" duration="5719000" />
       <workItem from="1579792599927" duration="6685000" />
-      <workItem from="1579947713965" duration="7877000" />
+      <workItem from="1579947713965" duration="8055000" />
+      <workItem from="1580106925964" duration="4278000" />
+      <workItem from="1580199510829" duration="895000" />
+      <workItem from="1580203532198" duration="595000" />
+      <workItem from="1580213650860" duration="1441000" />
+      <workItem from="1584636988341" duration="910000" />
+      <workItem from="1584686374396" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="Add user movie management entity with managed movies entities">
       <created>1578061087109</created>
@@ -271,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579799259501</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add UMM and mark controller services">
+      <created>1579957901820</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579957901820</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +306,8 @@
     <MESSAGE value="Add movie service and exceptions" />
     <MESSAGE value="Add user controller service" />
     <MESSAGE value="Add friends controller service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add friends controller service" />
+    <MESSAGE value="Add UMM and mark controller services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UMM and mark controller services" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Assign_Data_Sources" timestamp="1577960482387">
@@ -337,12 +341,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1578060642979" />
-    <state x="112" y="43" key="CommitChangelistDialog2" timestamp="1579799258807">
+    <state x="241" y="22" key="CommitChangelistDialog2" timestamp="1584637039004">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="112" y="40" key="CommitChangelistDialog2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622076857" />
     <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579786694778" />
-    <state x="112" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579799258807" />
+    <state x="241" y="22" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584637039004" />
     <state x="492" y="330" width="456" height="238" key="Github.ShareDialog" timestamp="1577947105557">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
@@ -400,23 +404,23 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060459019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579799262262">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579957904354">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.840/72.-1001.1280.1001@0.0.1440.840" timestamp="1579622079717" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579786696883" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579799262262" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579957904354" />
     <state x="498" y="37" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1579633192260">
       <screen x="0" y="0" width="1440" height="838" />
     </state>
     <state x="498" y="37" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.838/72.-1001.1280.1001@0.0.1440.838" timestamp="1579633192260" />
     <state x="498" y="40" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1578050738668" />
-    <state x="397" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1579775259393">
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1584686402335">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="397" y="265" key="com.intellij.ide.util.TipDialog/0.0.1440.900/72.-1024.1280.1024@0.0.1440.900" timestamp="1579775259393" />
-    <state x="397" y="265" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578077211866" />
-    <state x="397" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1577946373043" />
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1584686402335" />
+    <state x="397" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1580203532928" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.815@0.23.1440.815" timestamp="1579619539312" />
     <state x="492" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578055505510">
       <screen x="0" y="0" width="1440" height="900" />
